@@ -1,0 +1,8 @@
+#!/bin/bash
+#PBS -V
+#PBS -q q-1sem 
+#PBS -N dimer-model 
+#PBS -m ae 
+#PBS -M clara.delahousse@ens-paris-saclay.fr
+cd /home/cdelahousse/code/fiber_modelling_mono 
+python3 -u Main.py

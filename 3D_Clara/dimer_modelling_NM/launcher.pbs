@@ -1,0 +1,8 @@
+#!/bin/bash
+#PBS -V
+#PBS -q q-1sem 
+#PBS -N dimer_form 
+#PBS -m ae 
+#PBS -M clara.delahousse@ens-paris-saclay.fr
+cd /home/cdelahousse/code/v2_dimer_modelling_NM 
+python3 -u Main.py

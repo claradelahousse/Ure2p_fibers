@@ -1,0 +1,8 @@
+#!/bin/bash
+#PBS -V
+#PBS -q q-1sem 
+#PBS -N fiber_mono 
+#PBS -m ae 
+#PBS -M clara.delahousse@ens-paris-saclay.fr
+cd /home/cdelahousse/code/v2_fiber_modelling_dim_NM_g 
+python3 -u Main.py
